@@ -15,3 +15,11 @@ button {
   color: #fff;
   background-color: #025157;
 }
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+}
