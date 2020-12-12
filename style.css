@@ -291,3 +291,65 @@ nav ul li {
   margin-top: 0;
   height: 100%;
 }
+
+@media (max-width: 575px) {
+  .navbar,
+  .actions {
+    display: none;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  main {
+    margin-top: 130px;
+  }
+  .banner img {
+    width: 100%;
+  }
+  .promo {
+    flex-direction: column;
+    max-width: 90%;
+  }
+  .explanatory-video > video {
+    width: 100%;
+  }
+  .publish {
+    margin-top: 10px;
+  }
+  .publish > h3 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  .publish > form {
+    flex-direction: column;
+  }
+  .publish > form > div {
+    height: 50px;
+    margin-top: 10px;
+  }
+  .publish > form > div > input {
+    width: 65%;
+  }
+  .features {
+    /* grid-template: repeat(4, 1fr) / 1fr; */
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .feature-image {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+  .publish > form > div > input {
+    width: 50%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .publish > form > div > button {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
