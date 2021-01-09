@@ -1,0 +1,131 @@
+/** colores */
+/** fuentes */
+/** placeholders */
+.blog .title {
+  font-family: "Alegreya", serif;
+  color: #135359;
+}
+
+.blog {
+  background-color: #ffffff;
+  max-width: unset;
+  padding: 5% 10%;
+}
+.blog .process-list {
+  margin-top: 40px;
+  margin-bottom: 36px;
+}
+.blog .process-list .process {
+  margin-bottom: 25px;
+}
+.blog .process-list .process > div > h3 {
+  color: #025157;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-weight: 500;
+}
+.blog .process-list .process > div > p {
+  color: #135359;
+  margin: 0;
+}
+.blog .process-list .process .process-icon {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  text-align: center;
+}
+.blog .process-list .process .process-icon img {
+  height: 100%;
+}
+.blog button {
+  height: auto;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 12px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+.blog button.success {
+  background-color: blue;
+  color: #FFF;
+}
+.blog button.success:hover {
+  background-color: #3333ff;
+}
+.blog button.error {
+  background-color: red;
+  color: #FFF;
+}
+.blog button.error:hover {
+  background-color: #ff3333;
+}
+.blog button.info {
+  background-color: lightblue;
+  color: gray;
+}
+.blog button.info:hover {
+  background-color: #d4ebf2;
+}
+.blog .card-title {
+  font-size: 24px;
+  color: #4a4a4a;
+}
+.blog .metadata {
+  font-weight: 500;
+  font-size: 14px;
+  color: #979797;
+}
+.blog .metadata .category {
+  color: #67b54b;
+}
+.blog .card-text {
+  color: #4a4a4a;
+  font-size: 18px;
+  line-height: 1.5em;
+  min-height: 6em;
+}
+.blog .card-text .read-more a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.blog .author img {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+.blog .author p {
+  margin-left: 8px;
+  margin-bottom: 0;
+  font-weight: 600;
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.signup-form {
+  height: 50px;
+}
+.signup-form input, .signup-form button {
+  height: 100%;
+  border-radius: 8px;
+}
+.signup-form button {
+  color: #fff;
+  background-color: #025157;
+  border: none;
+  padding: 6px 20px;
+  margin-left: -10px;
+  border-radius: 8px;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+.signup-form input[type=email] {
+  box-sizing: border-box;
+  border: 1px solid #b6b6b6;
+  padding: 6px 20px;
+  width: 60%;
+  max-width: 250px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+}
+
+/*# sourceMappingURL=output.css.map */

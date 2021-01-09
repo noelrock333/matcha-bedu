@@ -24,37 +24,6 @@ h4 {
   font-size: 20px;
 }
 
-.signup-form {
-  height: 50px;
-}
-
-.signup-form input,
-.signup-form button {
-  height: 100%;
-  border-radius: 8px;
-}
-
-.signup-form button {
-  color: #fff;
-  background-color: #025157;
-  border: none;
-  padding: 6px 20px;
-  margin-left: -10px;
-  border-radius: 8px;
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
-}
-
-.signup-form input[type="email"] {
-  box-sizing: border-box;
-  border: 1px solid #b6b6b6;
-  padding: 6px 20px;
-  width: 60%;
-  max-width: 250px;
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
-}
-
 .start-trial-form {
   height: 50px;
 }
