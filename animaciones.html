@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .con-transicion {
+      margin: 30px;
+      width: 80px;
+      height: 80px;
+      background-color: purple;
+      transition: all ease-in 0.5s;
+    }
+    .con-transicion:hover {
+      border-radius: 50%;
+      background-color: seagreen;
+    }
+    @keyframes gira {
+      from {
+        transform: rotate(0deg);
+        left: 20px;
+      }
+      to {
+        transform: rotate(360deg);
+        left: 400px;
+      }
+    }
+    .contenedor {
+      position: relative;
+    }
+    .con-keyframes {
+      margin: 30px;
+      width: 80px;
+      height: 80px;
+      /* background-color: sienna; */
+      animation: gira 5s infinite alternate;
+      position: absolute;
+    }
+
+    .amburguesa-x {
+      width: 30px;
+      height: 30px;
+      position: relative;
+    }
+    .linea {
+      width: 30px;
+      height: 3px;
+      background-color: #ccc;
+      margin-bottom: 5px;
+      transition: all ease-in 0.2s;
+    }
+    .amburguesa-x:hover .linea3 {
+      display: none;
+    }
+    .amburguesa-x:hover .linea1 {
+      transform: rotate(45deg);
+      position: absolute;
+      top: 50%;
+    }
+    .amburguesa-x:hover .linea2 {
+      transform: rotate(135deg);
+      position: absolute;
+      top: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="con-transicion"></div>
+  <div class="contenedor">
+    <!-- <div class="con-keyframes"></div> -->
+    <img src="https://allninjagear.com/images/thumbs/0000102_naruto-shuriken-throwing-star_580.jpeg" alt="" class="con-keyframes">
+  </div>
+  <div class="amburguesa-x">
+    <div class="linea linea1"></div>
+    <div class="linea linea2"></div>
+    <div class="linea linea3"></div>
+  </div>
+</body>
+</html>

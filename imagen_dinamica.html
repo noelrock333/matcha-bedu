@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <img src="" id="mi-imagen" />
+  <script>
+    var images = [
+      'https://www.hola.com/imagenes/estar-bien/20180925130054/consejos-para-cuidar-a-un-gatito-recien-nacido-cs/0-601-526/cuidardgatito-t.jpg',
+      'https://www.purina.es/sites/default/files/2017-11/Bringing-Your-Kitten-Home_0.jpg',
+      'https://cf.ltkcdn.net/gatos/images/std/236641-699x450-etapas-desarrollo-gatitos.jpg',
+    ]
+    var randomNumber = Math.floor(Math.random() * images.length)
+    document.querySelector('#mi-imagen').setAttribute('src', images[randomNumber])
+  </script>
+</body>
+</html>
