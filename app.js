@@ -1,7 +1,7 @@
 const $forms = document.querySelectorAll(".signup-form");
 
-const getTemplate = (edad) => { // Aqui metí unos cambios
-  return fetch("./template.html").then((response) => response.text(), edad);
+const getTemplate = () => {
+  return fetch("./template.html").then((response) => response.text());
 };
 
 const sendEmailToApi = (address, template) => {
