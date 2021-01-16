@@ -1,0 +1,24 @@
+{
+  "name": "matcha-bedu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "sass": "^1.32.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch ./scss/main.scss output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noelrock333/matcha-bedu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noelrock333/matcha-bedu/issues"
+  },
+  "homepage": "https://github.com/noelrock333/matcha-bedu#readme"
+}
