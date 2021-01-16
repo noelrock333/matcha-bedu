@@ -1,6 +1,6 @@
 const $forms = document.querySelectorAll(".signup-form");
 
-const getTemplate = () => {
+const getTemplate = (edad) => {
   return fetch("./template.html").then((response) => response.text());
 };
 
